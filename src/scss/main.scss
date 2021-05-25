@@ -1,2 +1,52 @@
 // This is where you can import other stylesheets or write your scss code
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+* {box-sizing: border-box;
+    width: 100%;}
+
+$Default-font-color: #575350;
+$background-color:#f3fcf0;
+$border-color: #d2d2da;
+$default-font: 'Hind Siliguri', sans-serif ;
+$special-font: 'Permanent Marker', cursive;
+$headline-font: 'Montserrat', sans-serif;
+
+h1{color:$Default-font-color;
+    font-family: $headline-font;
+    font-weight: bold;
+    font-size: 2rem;}
+
+h2 {color:$Default-font-color;
+    font-family: $headline-font;
+    font-size: 1.5rem;}
+
+h3 {font-size: 1.5rem;
+    color:$Default-font-color;
+    font-family: $headline-font;}
+
+h4 {color:$Default-font-color;
+    font-family: $headline-font;}
+
+p {color:$Default-font-color;}
+
+.navbar-brand {font-family: $special-font;
+                font-size: 2rem;}
+
+body {background-color: $background-color;}
+
+#herosection {display: flex;
+                flex-direction: row;
+                justify-content: center;
+                vertical-align: middle;
+                
+    }
+
+#profile { box-shadow: 0 0 25px 0 grey;
+            border:10px white solid;}
+
+.icon {
+    float:left;
+        position:relative;
+        font-size: 40px;
+        padding-right: 10px;
+    }
