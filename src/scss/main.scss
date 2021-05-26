@@ -25,7 +25,8 @@ h3 {font-size: 1.5rem;
     font-family: $headline-font;}
 
 h4, h5 {color:$Default-font-color;
-    font-family: $headline-font;}
+    font-family: $default-font;
+    font-weight: bold;}
 
 h6 { color:#d2d2da;
     font-size: 50px;}
@@ -51,3 +52,5 @@ body {background-color: $background-color;}
         width: 50px;
         padding-right: 10px;
     }
+
+
