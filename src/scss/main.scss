@@ -15,10 +15,13 @@ h1{color:black;
     font-weight: bolder;
     font-size: 3rem;}
 
+h1:hover{font-family: $special-font;}
+
 h2 {color:black;
     font-family: $headline-font;
-    font-size: 1.5rem;
-    font-weight: bolder;}
+    font-size: 2rem;
+    font-weight: bolder;
+    }
 
 h3 {font-size: 1.5rem;
     color:$Default-font-color;
@@ -26,12 +29,15 @@ h3 {font-size: 1.5rem;
 
 h4, h5 {color:$Default-font-color;
     font-family: $default-font;
-    font-weight: bold;}
+    font-weight: bold;
+    font-size: 1.25rem;
+}
 
 h6 { color:#d2d2da;
     font-size: 50px;}
 
-p {color:$Default-font-color;}
+p {color:$Default-font-color;
+    font-size: 1rem;}
 
 .navbar-brand {font-family: $special-font;
                 font-size: 2rem;}
@@ -45,12 +51,39 @@ body {background-color: $background-color;}
             width: 350px;
             margin-left: 50px;}
 
-.icon {
+#profile:hover{border: 0px;
+    }
+
+.icon {     
     float:left;
         position:relative;
         height: 50px;
         width: 50px;
         padding-right: 10px;
     }
+
+.card.text-center:hover{ box-shadow: 0 0 25px 0 grey;}
+
+.resume{height: 30px;
+    width: 130px;
+        border-bottom: 2px #EE4266 solid;}
+
+.nav-link.active:hover{font-style: italic;
+                        font-weight: bold;}
+
+.btn.ms-5{background-color: #F3FCF0; 
+    width: 50%; 
+    border: 2px solid #EE4266; 
+    color:black; 
+    border-radius: 20px; 
+    font-weight: bolder;}
+
+.btn.ms-5:hover{background-color: #EE4266;
+    box-shadow: 0 0 15px 0 grey;}
+
+.btn.ms-5:active{background-color: #575350;
+                    color:white}
+
+
 
 

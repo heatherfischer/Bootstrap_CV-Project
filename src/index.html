@@ -24,34 +24,34 @@
     
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Skills</a>
+              <a class="nav-link active" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Resume</a>
+              <a class="nav-link active" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Fun Facts</a>
+              <a class="nav-link active" href="#funfacts">Fun Facts</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link active" href="https://www.linkedin.com/in/heather-fischer12345/">Contact</a>
           </li>
           </ul>
         </div>
       </div>
     </nav>
     
+<!-- d-inline-flex flex-sm-column flex-md-row justify-content-center mt-5 mw-100 -->
 
-
-  <div class="d-inline-flex flex-sm-column flex-md-row justify-content-center mt-5 mw-100">
-      <div>
-        <img src="images/heatherfischer.jpg" class="rounded-circle mt-2 mx-5" id="profile">
+  <div class="row mt-5">
+      <div class="col-sm-12 col-md-6 me-lg-0 ms-5 mt-5">
+        <img src="images/heatherfischer.jpg" class="rounded-circle mt-2 me-0" id="profile">
       </div>
-        <div class="d-flex flex-column p-2 mt-5 justify-content-center"  style="width: 500px;">
+        <div class="col-sm-12 col-md-6 ms-5 mt-5"  style="width: 500px;">
           <h4>Analyst • Web-developer</h4>
           <h1>Heather Fischer</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam cupiditate sed, incidunt porro repudiandae atque magni recusandae. Quibusdam rem magni vitae commodi, ullam maiores dicta consectetur, ratione saepe nobis dolores.</p>
-          <br>
-          <button type="button" class="btn btn-success ms-5" style="background-color: #F3FCF0; width: 50%; border: 4px solid #EE4266; color:black; border-radius: 20px; font-weight: bolder;">Contact me on Linkedin</button>
+          <p class="mb-5 mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam cupiditate sed, incidunt porro repudiandae atque magni recusandae. Quibusdam rem magni vitae commodi, ullam maiores dicta consectetur, ratione saepe nobis dolores.</p>
+          
+          <a type="button" class="btn ms-5" href="https://www.linkedin.com/in/heather-fischer12345/">Contact me on Linkedin</a>
         </div>
   </div>
 
@@ -61,9 +61,10 @@
 <div style="height: 100px;"></div>
 
 <div class="container mw-100 ms-md-5" >
-  <div class="row mt-5">
+  <div class="row mt-5" id="skills">
     <h2>Skills and Knowledge</h2>
-    <hr>
+    <span style="background-color:#57990B; width: 100px; height: 3px;"></span> 
+    <span style="background-color:lightgrey; width: 275px; height: 3px;"></span>
   </div>
   <div class="row mt-2">
     <div class="col-sm-12 col-md-6 my-2">
@@ -118,13 +119,14 @@
 
       <!-- Resume Section -->
       <div style="height: 100px;"></div>
-      <div class="container mw-100">
-        <h2>Resume</h2> <hr>
-
+      <div class="row" id="resume">
+      <h2>Resume</h2> 
+        <span style="background-color:#57990B; width: 100px; height:  3px;"></span> 
+        <span style="background-color:lightgrey; width: 275px; height: 3px;"></span>
           <div class="row my-4"> 
               <div class="col-sm-12 col-md-6">
-                <h3 class="text-center px-5">Education</h3>
-                <p class="mt-3 d-inline-block p-1" style="border: #57990B solid 2px; border-radius: 15px;">2021-2022 </p> 
+                <h3 class="resume">Education</h3>
+                <p class="mt-2 d-inline-block p-1" style="border: #57990B solid 2px; border-radius: 15px;">2021-2022 </p> 
                 <p class="d-inline-block fw-bold ms-3"> Digital Career Institute</p>
                 <h4 class="ms-5">Web-development Bootcamp</h4>
                 <ul class="ms-5">
@@ -154,8 +156,9 @@
                     </ul>
               </div>
               <div class="col-sm-12 col-md-6">
-                <h3 class="text-center">Experience</h3>
-                  <p class="d-inline-block p-1" style="border: #57990B solid 2px; border-radius: 15px;">03-05.2021 </p> 
+                <h3 class="resume">Experience</h3>
+              
+                  <p class="d-inline-block p-1 mt-2" style="border: #57990B solid 2px; border-radius: 15px;">03-05.2021 </p> 
                   <p class="d-inline-block fw-bold ms-3"> node energy</p>
                     <h4 class="ms-5"> Analyst</h4>
                     <ul class="ms-5">
@@ -182,9 +185,8 @@
                     </ul>
                     <div style="height: 30px;"></div>
                     <p class="d-inline-block p-1" style="border: #57990B solid 2px; border-radius: 15px;">01.2009-01.2014 </p> 
-                    <p class="d-inline-block fw-bold ms-3"> Federal Energy Regulatory Commission</p>
-                    <h4 class="ms-5"> Energy Industry Analyst</h4>
-                    <li> Thing I did</li>
+                    h2{border-bottom: green 2px solid;
+                      width:100px;}<li> Thing I did</li>
                         <li> Another thing I did</li>
                         <li> Yet another thing I did</li>
                       </ul>
@@ -195,8 +197,10 @@
 
       <!-- Fun Facts Section -->
       <div style="height: 100px;"></div>
-      <h2>Fun Facts</h2> <hr>
-<div class="row">
+      <h2 id="funfacts">Fun Facts</h2> 
+      <span style="background-color:#57990B; width: 100px; height: 3px;"></span> 
+    <span style="background-color:lightgrey; width: 275px; height: 3px;"></span>
+<div class="row mt-5">
   <div class="col-sm-6 col-md-3 g-lg-0 g-sm-3">
     <div class="card text-center" style="width: 15rem; height: 17rem;">
       <img src="images/united-states.png" class="card-img-top pt-5" alt="..." style="max-width: 50px; margin: auto;">
@@ -211,7 +215,7 @@
     <div class="card text-center" style="width: 15rem; height: 17rem;">
       <img src="images/trombone.png" class="card-img-top pt-3" alt="..." style="max-width: 50px; margin: auto;">
       <div class="card-body ">
-        <h5 class="card-title margin-bottom">Years Playing Trombone</h5>
+        <h5 class="card-title margin-bottom">Years Since I learned Trombone</h5>
         <h6>26</h6>
       </div>
     </div>
